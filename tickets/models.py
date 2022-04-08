@@ -21,3 +21,4 @@ class Ticket(models.Model):
     seat = models.CharField(max_length=10)
     cost = models.DecimalField(max_digits=10, decimal_places=2)
     ticket_class = models.CharField(max_length=1, choices=Class_Choices)
+

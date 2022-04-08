@@ -18,3 +18,6 @@ def airport_info(request, airport_code):
     return render(request, 'airports/airport.html', context)
 
 
+
+
+
